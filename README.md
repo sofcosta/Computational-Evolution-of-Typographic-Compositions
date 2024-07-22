@@ -1,6 +1,6 @@
 # Evolving Typographic Compositions
 
-We developed an Interactive Evolutionary System to generate typographic compositions. The system evolves sequences of operations that are then applied to text to create the compositions. Besides the main program, we also created a complementary tool to edit the resulting compositions from the main system.
+We developed an Interactive Evolutionary System to generate typographic compositions. The system evolves sequences of operations that are then applied to text to create the compositions. Besides the main program, we also created a complementary tool to edit the resulting compositions from the main system. The exported compositions can be found in the `outputs` folder of the program files.
 
 ![System's Interface](Interface.png)
 
@@ -13,8 +13,8 @@ To run our program in your machine you must follow these steps:
 1. Download and Install Processing through the official website: [processing.org](https://processing.org/)
 2. Install Library dependencies
 3. Clone the repository or download ZIP
-4. Locate the program folder you want to open (Evolutionary or Editor)
-5. Open the main `.pde` file of the program you want to use (Computational_Evolution_of_Typographic_Compositions.pde or Editor.pde)
+4. Locate the program folder you want to open (EvolutionaryTypeComp or Editor)
+5. Open the main `.pde` file of the program you want to use (`EvolutionaryTypeComp.pde` or `Editor.pde`)
 6. Run the Sketch
 
 ## Using the system
@@ -45,6 +45,16 @@ String[] fonts = {
 ### Change Composition’s Resolution
 
 To change the resolution of the compositions being evolved you can open `config.json` file (which is inside the Sketch data folder) and change the `proportions`. `w` for the composition’s width and `h` for the height. 
+
+### Import Evolved Composition to Editor
+
+To import an evolved composition to the Editor you should follow these steps:
+
+1. Locate the exported composition in the `outputs` folder of the Evolutionary system
+2. Locate the `.txt` file that contains the genotype
+3. Copy the first genotype, the one of the type `[flip 0,566 0,368][repeat 0,223 0,844 0,014 0,358 0,354 0,318][rotate 0,627]`
+4. Open the Editor and paste the genotype inside the first element of the Array `file` 
+5. Run the program
 
 ## Dependencies
 
