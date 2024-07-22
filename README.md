@@ -19,7 +19,19 @@ To run our program in your machine you must follow these steps:
 
 ## Using the system
 
-The system can be used as is, but if you want to change some more advanced aspects continue reading this section.
+To use the system more easily, read this section.
+
+### Interacting with the system
+
+You can do the following things through the interface of the system:
+
+1. Change the minimum and maximum number of operations in a composition
+2. Turn on or off each operation
+3. Change the number of compositions in each population
+4. Change the recombination and mutation probabilities
+5. Evaluate each composition
+6. Evolve or reset the population
+7. Change the text in the compositions using the keyboard
 
 ### Change Font
 
