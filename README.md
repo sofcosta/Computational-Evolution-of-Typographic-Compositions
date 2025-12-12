@@ -3,7 +3,6 @@
 We developed an Interactive Evolutionary System to generate typographic compositions. The system evolves sequences of operations that are then applied to text to create the compositions. Besides the main program, we also created a complementary tool to edit the resulting compositions from the main system. The exported compositions can be found in the `outputs` folder of the program files.
 
 ![System's Interface](Interface.png)
-
 *Interface of the Evolutionary System*
 
 ## Installation
