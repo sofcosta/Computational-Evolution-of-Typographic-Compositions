@@ -32,13 +32,6 @@ PGraphics canvas;
 String[] lines = {"This is text"};
 //String[] lines = {"15yD+M"};
 
-//String[] lines = {
-//  "We\'ve been whispering for hours",
-//  "If there\'s a god, she knows",
-//  "When something\'s more than words",
-//  "Souls do the talking,",
-//  "And that\'s how it goes."};
-
 //String[] lines = {"ΨΩ"};
 // Δ Θ Λ Ξ Π Σ Φ Ψ Ω β ҉
 
